@@ -1,7 +1,7 @@
 # week3
-//全局捕获异常Application
+    //全局捕获异常Application
 
-public class MyApp extends Application {
+    public class MyApp extends Application {
 
 
     @Override
@@ -12,7 +12,7 @@ public class MyApp extends Application {
         KqwException handler = KqwException.getInstance(this);
         Thread.setDefaultUncaughtExceptionHandler(handler);
         
-}
+    }
 
 
 
